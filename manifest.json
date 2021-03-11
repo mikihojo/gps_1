@@ -3,7 +3,7 @@
     "short_name": "GPS",
     "background_color": "#FFFFFF",
     "display": "standalone",
-    "start_url": "gps_1.html",
+    "start_url": "index.html",
     "icons": [
         {
             "src": "img/icon-192x192.png",
