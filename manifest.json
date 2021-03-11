@@ -1,7 +1,7 @@
 {
     "name": "GPS sample app",
     "short_name": "GPS",
-	"background_color": "purple",
+    "background_color": "#FFFFFF",
     "display": "standalone",
     "start_url": "gps_1.html",
     "icons": [
