@@ -1,0 +1,14 @@
+{
+    "short_name": "GPS",
+    "name": "GPS sample app",
+    "display": "standalone",
+    "start_url": "gps_1.html",
+    "icons": [
+        {
+            "src": "img/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
+
