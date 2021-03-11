@@ -3,18 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<script>
-		// serviceworkerの登録
-		if ('serviceWorker' in navigator) {
-		  navigator.serviceWorker.register('service_worker.js')
-		  .then(function(reg) {
-		    // registration worked
-		    console.log('Registration succeeded. Scope is ' + reg.scope);
-		  }).catch(function(error) {
-		    // registration failed
-		    console.log('Registration failed with ' + error);
-		  });
-		}
-		
 		// GPS値取得
 		function geo_get() {
 		    navigator.geolocation.getCurrentPosition(geo_detail);
