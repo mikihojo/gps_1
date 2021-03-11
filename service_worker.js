@@ -7,7 +7,7 @@
 // urlsToCacheで登録したURLをキャッシュしてくれ、オフラインでも閲覧可
 var CACHE_NAME = 'gps-sample-caches';
 var urlsToCache = [
-    '/gps_1.html',
+    '/index.html',
 ];
 // インストール処理
 self.addEventListener('install', function(event) {
